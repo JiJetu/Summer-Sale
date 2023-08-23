@@ -87,4 +87,5 @@ document.getElementById("apply-btn").addEventListener("click", function(){
     couponField.disabled = true;
     const applyBtn = document.getElementById("apply-btn");
     applyBtn.setAttribute("disabled", true);
+    applyBtn.style.backgroundColor = "black";
 })
